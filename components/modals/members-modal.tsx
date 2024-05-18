@@ -124,7 +124,7 @@ export default function MembersModal() {
                                                                 />
                                                             )}
                                                         </DropdownMenuItem>
-                                                        <DropdownMenuItem onClick={() => onRoleChange('member.id', 'MODERATOR')}>
+                                                        <DropdownMenuItem onClick={() => onRoleChange(member.id, 'MODERATOR')}>
                                                             <ShieldCheck className='size-4 mr-2' />
                                                             Moderator
                                                             {member.role === "MODERATOR" && (
